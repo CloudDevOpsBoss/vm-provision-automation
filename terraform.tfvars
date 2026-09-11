@@ -1,4 +1,3 @@
-resource_group_name = "Sai-demo4"
-location            = "eastus"
-name2              = "Sai-demo3"
-location2          = "westus"
+rg-name = "Sai-Demo-RG01"
+rg-location = "eastus"
+
