@@ -28,3 +28,7 @@ tags = {
   CostCenter  = "IT"
   Department  = "Cloud"
 }
+
+nic_name = "nic-sai-dev-eastus-01"
+
+private_ip_address = "10.10.10.8"

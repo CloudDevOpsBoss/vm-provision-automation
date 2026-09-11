@@ -62,3 +62,8 @@ output "poc_subnet_address" {
   description = "POC subnet address"
   value       = azurerm_subnet.poc.address_prefixes
 }
+
+output "dev_nic_private_ip" {
+  description = "Private IP address assigned to Dev NIC"
+  value       = azurerm_network_interface.dev.private_ip_address
+}

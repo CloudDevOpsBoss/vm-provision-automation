@@ -22,5 +22,9 @@ Creating 4 Subnets:
 --> Prod-Subnet: 10.10.10.128/26
 --> POC-Subnet : 10.10.10.192/26
 
+Network Interface (NIC) and attach it to the Dev-Subnet.
+A NIC does not get the subnet's entire address space.
+The NIC gets one private IP address from the subnet.
+Dev-Subnet:  10.10.10.0/26
 
-
+ 

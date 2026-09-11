@@ -62,3 +62,13 @@ variable "tags" {
   description = "Tags to apply to Azure resources"
   type        = map(string)
 }
+
+variable "nic_name" {
+  description = "Name of the Network Interface"
+  type        = string
+}
+
+variable "private_ip_address" {
+  description = "Static private IP address for the Dev NIC"
+  type        = string
+}
